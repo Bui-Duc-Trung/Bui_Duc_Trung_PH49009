@@ -77,11 +77,12 @@ namespace Bui_Duc_Trung_PH49009
             Console.Write("Ky hoc hien tai: ");
             int kyhoc = int.Parse(Console.ReadLine());
             SVUDPM sinhVien = new SVUDPM(masv, tensv, namsinh, diemsv, kyhoc);
-            sVUDPMs.Add(sinhVien);
-            foreach (var item in sVUDPMs)
-            {
-                item.InThongTin();
-            }
+            //sVUDPMs.Add(sinhVien);
+            //foreach (var item in sVUDPMs)
+            //{
+            //    item.InThongTin();
+            //}
+            sinhVien.InThongTin();
             
         }
     }
